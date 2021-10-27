@@ -98,7 +98,7 @@ public class MedicalLoginTest {
        // Phone.sendKeys("0314567788");
         MedicalLogin.AddPhone(driver);
         MedicalLogin.clickOnNext(driver).click();
-
+//some change
 
         Select Dropdown1= new Select(driver.findElement(By.xpath("//*[@id=\"relationship_type\"]")));
         Dropdown1.selectByVisibleText("Sibling");
